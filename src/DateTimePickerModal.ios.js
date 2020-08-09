@@ -114,7 +114,8 @@ export class DateTimePickerModal extends React.PureComponent {
       onHide,
       ...otherProps
     } = this.props;
-    const isDarkModeEnabled = Appearance.getColorScheme() === "dark";
+    // const isDarkModeEnabled = Appearance.getColorScheme() === "dark";
+    const isDarkModeEnabled = false;
 
     const ConfirmButtonComponent = customConfirmButtonIOS || ConfirmButton;
     const CancelButtonComponent = customCancelButtonIOS || CancelButton;
